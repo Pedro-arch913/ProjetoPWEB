@@ -1,43 +1,42 @@
-.container { /*conteiner pai*/
-    display: flex; /*define o conteiner como flexivel*/
-    justify-content: space-between; /*define a direção dos itens do conteiner da esquerda para a diretita*/                                                                                                                                                 
-    width: 100%;
-    background-color: lightgray;
+*{
+    padding: 0;
+    margin: 0;
 }
 
-
-.caixa { /*filhos*/
-    width: 100px;
-    height: 100px;
-    background-color: rgb(209, 88, 209);
-    border: 1px solid black;
-    box-shadow: 2px 2px 7px; /*para dar sombra na caixa*/
-    color: rgb(81, 84, 87); /*cor da sombra*/
+/* Estilos para a barra de navegação */
+.nav{
+    
+    background-color: #333;
+    color: white;
+    display: flex;
+    padding: 10px 20px;
 }
 
-.conteiner-2{
+.nav a {
+    color: white;
+    text-decoration: none;
+    margin-left: 15px;
+}
+
+.nav a:hover {
+    color: greenyellow;
+}
+
+.titulo{
+    display: flex;
+    justify-content: center;
+    align-items: center;     
+    padding: 25px;
+    font-size: 22px;
+    font-weight: bold;
+    background-color: #f5f5f5;
+    border-bottom: 2px yellowgreen solid;
+}
+
+.conteudo{
     display: flex;
     flex-direction: column;
-    background-color: lightgrey;
-    height: 100vh; /*ficou a tela toda grey*/
+    align-items: center;
+    padding: 20px;
+    font: 400 16px/1.5 'Roboto', sans-serif;
 }
-.caixa-verde {
-    width: 100px;
-    height: 100px;
-    background-color: green;
-    border: 1px solid black;
-    box-shadow: 2px 2px 5px;
-    color: black;
-
-}
-
-.caixa-azul {
-    width: 100px;
-    height: 100px;
-    background-color: blue;
-    border: 1px solid black;
-    box-shadow: 2px 2px 5px;
-    color: black;
-
-}
-
