@@ -67,13 +67,19 @@ footer {
 .rodape p {
     margin: 5px 0;
     padding: 5px;
+    
 
 }
 
-.autores {
+.autores {    
     display: flex;
-    justify-content: flex-end;
+    flex-direction: row-reverse;
     padding: 5px;
     font: 400 16px/1.5 'Roboto', sans-serif;
 }
 
+.tabela {
+    border-collapse: collapse;
+    width: 80%;
+    margin: 20px auto;
+}
