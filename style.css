@@ -2,39 +2,39 @@
     padding: 0;
     margin: 0;
 }
+body{
+    background-color: #EAF4F4;
+}
 
 /* Estilos para a barra de navegação */
-.nav{
-    
-    background-color: #333;
+header{
+    background-color: #1E1E1E;
     color: white;
-    display: flex;
-    padding: 10px 20px;
+    padding: 20px;
+    text-align: center;
 }
 
-.nav a {
-    color: white;
-    text-decoration: none;
-    margin-left: 15px;
-}
-
-.nav a:hover {
-    color: greenyellow;
-}
-
-.titulo{
-    
-    background-color: #f5f5f5;
-    border-bottom: 2px yellowgreen solid;
-}
-.titulo h2{
-    font: 400 16px/1.5 'Roboto', sans-serif;
+.menu{
     display: flex;
     justify-content: center;
-    align-items: center;     
-    padding: 10px;
-    font-size: 22px;
-    font-weight: bold;
+    gap: 25px;
+    margin-top: 20px;
+    flex-wrap: wrap;
+}
+
+.menu a{
+
+    color: #ABBAC5;
+
+    text-decoration: none;
+
+    font-size: 18px;
+
+}
+
+.menu a:hover{
+
+    color: gray;
 }
 
 .conteudo{
@@ -54,28 +54,12 @@
     
 }
 
-footer {
-    background-color: #333;
+.rodape{
+    background-color: #086788;
     color: white;
-    padding: 10px 0;
-    margin: 5px 0;
-    position: fixed;
-    width: 100%;
-    bottom: 0;
-}
-
-.rodape p {
-    margin: 5px 0;
-    padding: 5px;
-    
-
-}
-
-.autores {    
-    display: flex;
-    flex-direction: row-reverse;
-    padding: 5px;
-    font: 400 16px/1.5 'Roboto', sans-serif;
+    text-align: center;
+    padding: 15px;
+    margin-top: 30px;
 }
 
 /* Tabelas */
@@ -89,7 +73,7 @@ table {
 }
 
 th {
-    background-color: #2563eb;
+    background-color: green;
     color: white;
     padding: 12px;
     text-align: left;
@@ -98,10 +82,7 @@ th {
 td {
     padding: 10px;
     border-bottom: 1px solid #ddd;
-}
-
-tr:hover {
-    background-color: #f5f5f5;
+    background-color:#F5F7FA;
 }
 
 
@@ -120,8 +101,9 @@ tr:hover {
 
     /* CARD */
     .card{
-      background:white;
+      background-color: #F5F7FA;
       width:300px;
+      margin: 20px;
       padding:20px;
       border-radius:10px;
       box-shadow:0 4px 10px rgba(0,0,0,0.1);
@@ -142,3 +124,4 @@ tr:hover {
       line-height:1.5;
       font: roboto, sans-serif;
     }
+
