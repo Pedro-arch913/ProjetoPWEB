@@ -1,0 +1,42 @@
+body{
+    margin: 0;
+    background-color: #F5F5F5
+}
+
+header{
+    background-color: #1E1E1E;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+.menu{
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    margin-top: 20px;
+    flex-wrap: wrap;
+}
+
+.menu a{
+
+    color: #ABBAC5;
+
+    text-decoration: none;
+
+    font-size: 18px;
+
+}
+
+.menu a:hover{
+
+    color: gray;
+}
+
+.rodape{
+    background-color: #086788;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    margin-top: 30px;
+}
