@@ -16,9 +16,8 @@ header{
     gap: 25px;
     margin-top: 20px;
     flex-wrap: wrap;
-}
-
-.menu a{
+    
+    .menu a{
 
     color: #ABBAC5;
 
@@ -27,6 +26,9 @@ header{
     font-size: 18px;
 
 }
+}
+
+
 
 .menu a:hover{
 
