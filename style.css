@@ -65,11 +65,12 @@ header{
 /* Tabelas */
 
 table {
-    width: 100%;
+
+    width: 80%;
     height: auto;
     border-collapse: collapse;
     font-family: Arial, sans-serif;
-    margin: 25px 0;
+    margin: 25px auto;
 }
 
 th {
