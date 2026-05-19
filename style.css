@@ -37,22 +37,7 @@ header{
     color: gray;
 }
 
-.conteudo{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 20px;
-    font: 400 16px/1.5 'Roboto', sans-serif;
-}
 
-.imagem {
-    display: flex;
-    align-items: center;
-    width: auto;
-    height: 300px;
-    margin: 10px auto;
-    
-}
 
 .rodape{
     background-color: #086788;
@@ -65,11 +50,10 @@ header{
 /* Tabelas */
 
 table {
-
+    font-family: 'Roboto', sans-serif;
     width: 80%;
     height: auto;
     border-collapse: collapse;
-    font-family: Arial, sans-serif;
     margin: 25px auto;
 }
 
@@ -81,6 +65,7 @@ th {
 }
 
 td {
+    font-family: 'Roboto', sans-serif;
     padding: 10px;
     border-bottom: 1px solid #ddd;
     background-color:#F5F7FA;
@@ -108,12 +93,13 @@ td {
       padding:20px;
       border-radius:10px;
       box-shadow:0 4px 10px rgba(0,0,0,0.1);
-      
+      border-top: 5px solid rgb(2, 173, 2);
     }
 
     .card:hover{
       box-shadow:0 6px 15px rgba(0,0,0,0.15);
     }
+    
 
     .card h2{
       color:green;
