@@ -1,6 +1,6 @@
 body{
-    margin: 0;
-    background-color: #F5F5F5
+margin: 0;
+background-color: #fbfbfb
 }
 
 header{
@@ -13,32 +13,83 @@ header{
 .menu{
     display: flex;
     justify-content: center;
-    gap: 25px;
-    margin-top: 20px;
-    flex-wrap: wrap;
-    
-    .menu a{
+    align-items: center;
+    gap: 20px;
+    flex-wrap: nowrap;
+}
 
+.menu a{
     color: #ABBAC5;
-
     text-decoration: none;
-
     font-size: 18px;
-
 }
-}
-
-
 
 .menu a:hover{
-
-    color: gray;
+            color: gray;
 }
 
 .rodape{
-    background-color: #086788;
-    color: white;
-    text-align: center;
-    padding: 15px;
-    margin-top: 30px;
+        background-color: #086788;
+        color: white;
+        text-align: center;
+        padding: 15px;
+        margin-top: 30px;
+}
+
+.title{
+    display: flex;
+    justify-content: start;
+    margin: 30px;
+    font-size: 24px;
+    color: #000000;
+}
+
+.cardrow{
+    display: flex;
+    justify-content: center;
+    flex-flow: row wrap;
+    gap: 40px;
+    padding: 10px 30px 10px 30px;
+}
+
+.card{
+    display: flex;
+    width: 270px;
+    height: 150px;
+    border-radius: 7%;
+    background-color: white;
+    color: #000000;
+    font-size: 12px;
+    padding: 10px;
+    flex-flow: column nowrap;
+    gap: 2px;
+}
+
+.cardteam{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.cardfooter{
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+    flex-flow: row nowrap;
+
+    font-size: 16px;
+}
+
+.item{
+    display: flex;
+    justify-content: end;
+    align-items: end;
+    font-size: 14px;
+    padding-top: 20px;
+
+    text-decoration: none;
+    color: #000000;
 }
