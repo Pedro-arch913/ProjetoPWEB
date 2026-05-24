@@ -1,6 +1,6 @@
 body{
     margin: 0;
-    background-color: #F5F5F5
+    background-color: #F5F5F5;
 }
 
 header{
@@ -19,17 +19,12 @@ header{
 }
 
 .menu a{
-
     color: #ABBAC5;
-
     text-decoration: none;
-
     font-size: 18px;
-
 }
 
 .menu a:hover{
-
     color: gray;
 }
 
@@ -41,18 +36,18 @@ header{
     padding: 30px;
 }
 
-.formulario{
+.equipes{
     display: flex;
-    flex-direction: column;
-    align-items: center;
     flex-wrap: wrap;
     justify-content: center;
     gap: 40px;
     padding: 30px;
 }
 
-.equipes{
+.formulario{
     display: flex;
+    flex-direction: column;
+    align-items: center;
     flex-wrap: wrap;
     justify-content: center;
     gap: 40px;
@@ -91,7 +86,6 @@ header{
     display: flex;
     justify-content: center;
     align-items: center;
-    
 }
 
 .caixa img{
