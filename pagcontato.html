@@ -4,6 +4,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap" rel="stylesheet">
+
     <link rel = "stylesheet" href = "styleg.css" >
 </head>
 <body>
@@ -21,26 +25,24 @@
     </header>
 
     <section class = "formulario">
-        <div class = "caixac">
-            <form>
-            <label>Nome: </label><br>
-            <input type = "text" name = "nome">
-            </form>
-        </div>
+        <form class = "caixac">
+            <label>Nome: </label>
+            <input type = "text" name = "nome"><br>
+            <label>Email para contato: </label>
+            <input type = "email" name = "email"><br>
+            <label>Qual foi a sua experiência com nosso site?</label>
+            <select name  = "avaliacao">
+                <option>Muito boa</option>
+                <option>Boa</option>
+                <option>Mediana</option>
+                <option>Ruim</option>
+                <option>Muito ruim</option>
+            </select><br>
+            <label>Fique à vontade para digitar recomendações:</label>
+            <input type = "text" name = "text"><br>
 
-        <div class = "caixac">
-            <form>
-                <label>Seu E-mail:</label><br>
-                <input type = "email" name = "email">
-            </form>
-        </div>
+        </form>
 
-        <div class = "caixac">
-            <form>
-                <label>Deseja indicar alguma recomendação? </label><br> 
-                <input type = "text" size  = "20">
-            </form>
-        </div>
 
         <div class = "caixa_pequena">
             <form>
